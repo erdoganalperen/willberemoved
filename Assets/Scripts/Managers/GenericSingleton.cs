@@ -18,7 +18,7 @@ public abstract class GenericSingleton<T> : MonoBehaviour where T : MonoBehaviou
                 GameObject singleton = new GameObject();
                 _instance = singleton.AddComponent<T>();
                 singleton.name = "(singleton) " + typeof(T);
-                DontDestroyOnLoad(singleton);
+                //DontDestroyOnLoad(singleton);
                 Debug.Log(singleton + "was created with DontDestroyOnLoad.");
             }
             return _instance;
@@ -34,7 +34,7 @@ public abstract class GenericSingleton<T> : MonoBehaviour where T : MonoBehaviou
         if (_instance == null)
         {
             _instance = this as T;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
         else
         {

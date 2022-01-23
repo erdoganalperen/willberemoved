@@ -5,6 +5,7 @@ using UnityEngine;
 [Serializable]
 public class VirtualCameraProperties
 {
-    public string Name;
-    public CinemachineVirtualCamera VCam;
+    public string name;
+    public CameraType cameraType;
+    public CinemachineVirtualCamera vCam;
 }

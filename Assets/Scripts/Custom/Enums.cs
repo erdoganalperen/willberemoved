@@ -8,6 +8,13 @@ public enum GameState
     Scoring,
     Finish
 }
+
+public enum CameraType
+{
+    StartCamera,
+    PlayingCamera,
+    FinishCamera
+}
 public enum CollectableType
 {
 

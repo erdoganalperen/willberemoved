@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameConfig : GenericSingleton<GameConfig>
 {
-    public float PlayerSpeed;
-    public float ClampX;
+    public float playerSpeedZ;
+    public float playerSpeedX;
+    public float clampX;
 }
