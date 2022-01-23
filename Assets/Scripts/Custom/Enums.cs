@@ -19,3 +19,10 @@ public enum CollectableType
 {
 
 }
+
+public enum StackType
+{
+    Up,
+    Down,
+    Forward
+}

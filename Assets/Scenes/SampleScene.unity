@@ -1199,7 +1199,7 @@ MonoBehaviour:
   widht: 6
   finishPrefab: {fileID: 3753972100512621755, guid: d07a4f4612b8942d58b45b441cd18651, type: 3}
   levels:
-  - roadLength: 30
+  - roadLength: 80
   - roadLength: 50
   levelInstantiatePosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1321299840
@@ -1406,9 +1406,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0afacf66080b4da48eac4b2b4665850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeedZ: 4
-  playerSpeedX: 15
-  clampX: 2.8
+  playerSpeedZ: 2
+  playerSpeedX: 24
+  clampX: 2.9
 --- !u!1 &1780836542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +1859,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6026745078858934140, guid: 1dcf82d7ee29eb143b6f1e1d7ee9a6de, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6026745079166736674, guid: 1dcf82d7ee29eb143b6f1e1d7ee9a6de, type: 3}
       propertyPath: m_Name
       value: PlayerParent
